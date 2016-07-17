@@ -7,11 +7,10 @@ tags:   [Github Pages,Ruby,Jekyll,Writting]
 ---
 
 # Taobao's mirror
-[https://ruby.taobao.org]
-[https://npm.taobao.org/]
+[ruby],[npm]
 
 # Jekyll's Docs
-https://jekyllrb.com/docs/home/
+[Jekyll's Docs]
 
 # Set Github Pages up step by step
 {% highlight bash %}
@@ -77,3 +76,17 @@ Microsoft Windows Script Host (JScript)
 >
 https://github.com/rails/rails/pull/3619 这里已经有pull request可以在找不到系统里的js runtime就在gemfile里添加therubyracer的特性。但是木有被采纳。
 
+# Reference
+[Blogging Like a Hacker]
+
+[Blogging Like a Hacker YZP]
+
+[Blogging Like a Hacker Octopress]
+
+[Blogging Like a Hacker]: http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
+[Blogging Like a Hacker YZP]: https://www.douban.com/group/topic/39939196/
+[Blogging Like a Hacker Octopress]: http://blog.csdn.net/jackyvincefu/article/category/1744043
+
+[ruby]: https://ruby.taobao.org/
+[npm]: https://npm.taobao.org/
+[Jekyll's Docs]: https://jekyllrb.com/docs/home/
