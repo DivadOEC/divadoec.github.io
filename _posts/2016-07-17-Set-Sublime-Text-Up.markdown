@@ -12,12 +12,12 @@ Use *Ctrl + `* to open the command windows of sublime,then enter these code and 
 ## for ST3
 {% highlight python %}
 import urllib.request,os,hashlib; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://dn-52cik.qbox.me/' + pf.replace(' ', '%20')).read(); open(os.path.join( ipp, pf), 'wb' ).write(by)
-{% endhighligth %}
+{% endhighlight %}
 
 ## for ST2
 {% highlight python %}
 import urllib2,os,hashlib; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://dn-52cik.qbox.me/' + pf.replace(' ', '%20')).read(); open( os.path.join( ipp, pf), 'wb' ).write(by); print('Please restart Sublime Text to finish installation')
-{% endhighligth %}
+{% endhighlight %}
 
 *Restart your ST*
 
