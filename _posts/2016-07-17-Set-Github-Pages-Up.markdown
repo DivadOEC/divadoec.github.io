@@ -3,6 +3,7 @@ layout: post
 title:  "Set Github Pages Up!"
 date:   2016-07-17 21:01:40 +0800
 categories: jekyll update
+tags:   [Github Pages,Ruby,Jekyll,Writting]
 ---
 
 # Taobao's mirror
